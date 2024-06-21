@@ -1,26 +1,26 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "demo-health"
+cluster_name: "corona-hcm"
 
 # Replace with ssh key name you want
-ssh_key_name: "health-ssh-key" 
+ssh_key_name: "corona-hcm-ssh-key" 
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCQqsG1qCPzOLwjoqLmE0f50caH2bp6KndQ8DXTQzvj09vkSG5Wy6rSLMcq94um2BzeRhbq1aADpEXIb2BOY+mfpxsU0UFU4QWufPmGkGpQoM+ov67XnezQL5/DA0mqPrWOs39RAofOUhEtn4tbKlb8t+S023cI7ulX901p23+61r7dJQ557uFyHEJmgXX4CPy+Br+XAzRU7r8YmJ8h43Z5y+r4P3HD04XLQ9O6+FjYljabPKdj3VCdtbtz6xqPcUTRvSKX5iHzOQbqj7iSJ/RqysUSsYE1LCYD/7xfNHxnNU9qYuP3gPkWXsgBFE/PWlAuWCL6yvdjSRZLACVn5T77"
+public_ssh_key: "ssh-rsa MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtX4h2yU14VJ+3JAU4GwWjKYaXUYUgdnHlj3Xfvjul9QqbpeIRNL09aFzg3P4oK4PYNspSCwhZomvf5Kxy0cJZKwHGubEEsMLxU6CtHWrLfxgI/t+GYPmXRU25SIXTOYf/vnV1wEgWF129fTwkged3buWbXhVEwXdWvsgKTPX3/UzOh5PojE7nxHNQVlv0NxWqYRhmNBJXuMRPe/5uUtjZDcQt+cH2GepXHpR/cAi7zpaf6sxVbktVzqOuaTRQ+eTwG6z9Q8Fna03HLzyfiZd2Zxs/wkkp00gWYvjnrcZ7p84ZB6UDIP+3dRBDnwm9y2q6KIL/3YzhezM8/K6opHQmwIDAQAB"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "healthdemodb"
+db_name: "coronahcmdb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "healthdemo" 
+db_username: "coronahcm" 
 
 # Replace with Domain name you want for your web applications
-domain_name: "digit-cms.digit.org"
+domain_name: "coronahcm.org"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform states
-terraform_state_bucket_name: "demo-health-digit-buckets"
+terraform_state_bucket_name: "coronahcm-health-digit-buckets"
 
 
