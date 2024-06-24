@@ -18,7 +18,7 @@ db_name: "coronahcmdb"
 db_username: "coronahcm" 
 
 # Replace with Domain name you want for your web applications
-domain_name: "coronahcm.org"
+domain_name: "ccsvr.cloud"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform states
 terraform_state_bucket_name: "coronahcm-health-digit-buckets"
